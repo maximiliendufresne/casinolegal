@@ -196,8 +196,8 @@
             "iconFont": {
               "class": "mbr-iconfont",
               "linkInNewWindow": false,
-              "name": "support",
-              "family": "iconsMind",
+              "name": "wechat",
+              "family": "FontAwesome",
               "active": true,
               "link": "",
               "newWindow": false
