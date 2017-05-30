@@ -1,32 +1,29 @@
 {
   "settings": {
-    "name": "casinolegal.fr",
+    "name": "NewSite-05-30_1511",
     "currentPage": "index.html",
     "theme": {
-      "name": "directm",
-      "title": "DirectM",
+      "name": "colorm",
+      "title": "ColorM",
       "styling": {
-        "primaryColor": "#4fe71f",
-        "secondaryColor": "#c48cce",
-        "successColor": "#1E7C3A",
-        "infoColor": "#74a3c7",
-        "warningColor": "#fffffd",
-        "dangerColor": "#FF9685",
-        "titleFont": "Oxygen",
-        "subtitleFont": "Libre Franklin",
-        "textFont": "Libre Franklin",
-        "isRoundedButtons": false,
+        "primaryColor": "#f39c12",
+        "buttonsColor": "#000000",
+        "secondaryColor": "#9b59b6",
+        "successColor": "#2ecc71",
+        "infoColor": "#3498db",
+        "warningColor": "#f1c40f",
+        "dangerColor": "#e74c3c",
+        "titleFont": "Arvo",
+        "subtitleFont": "Montserrat",
+        "textFont": "Open Sans",
+        "isRoundedButtons": true,
         "isAnimatedOnScroll": true,
-        "isScrollToTopButton": true
+        "isScrollToTopButton": false
       }
     },
     "versionFirst": "3.12.1",
-    "uniqCompNum": 18,
-    "versionPublish": "3.12.1",
-    "favicon": "@PROJECT_PATH@/assets/images/cloud118-128x128.png",
-    "noImageResize": "",
-    "google-analytics": "",
-    "cookiesAlert": ""
+    "uniqCompNum": 5,
+    "versionPublish": "3.12.1"
   },
   "pages": {
     "index.html": {
@@ -43,476 +40,278 @@
           "_tags": [
             "Theme"
           ],
-          "_name": "header7",
+          "_name": "content5",
           "_styles": {
-            "P": {
-              "font-size": "32px"
+            ".mbr-section-title": {
+              "font-family": "'Open Sans', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Open+Sans:400,300,700",
+              "font-size": "25px"
+            },
+            ".mbr-section-title SPAN": {
+              "font-size": "17px"
             }
           },
-          "_anchor": "header7-7",
+          "_anchor": "content5-2",
           "_params": {
-            "imageSize": "13",
-            "paddingTop": "1",
-            "paddingBottom": "1",
-            "containerColor1": "#bf359d",
-            "containerColor2": "#dc4c35",
-            "containerColor3": "#fdff81",
-            "parallax": false,
+            "paddingTop": "0",
+            "paddingBottom": "0",
             "bgImageRadio": false,
-            "bgImage": "@THEME_PATH@/components/_images/_background/header3.jpg",
+            "parallax": false,
+            "bgImage": "@THEME_PATH@/components/_images/desert2.jpg",
+            "bgColor": "#000000",
             "bgColorRadio": true,
             "bgVideo": {
-              "url": "http://www.youtube.com/watch?v=fwkKc6M60-0"
+              "url": "https://www.youtube.com/watch?v=HnPYeBJ9JCc"
             },
             "bgVideoRadio": false,
             "overlay": true,
             "overlayOpacity": 0.8,
-            "overlayColor": "#fff",
-            "inverse": true,
+            "overlayColor": "#169581",
             "showTitle": true,
-            "showText": true,
-            "showButtons": true,
-            "showArrow": false
+            "showCaption": true
           },
-          "media": {
-            "image": {
-              "active": true,
-              "width": 1400,
-              "src": "@PROJECT_PATH@/assets/images/15930846-0-logo-casino-legal-1400x299.png",
-              "link": "",
-              "alt": "",
-              "title": "",
-              "linkInNewWindow": true
-            },
-            "video": {
-              "src": "https://www.youtube.com/embed/Tq7p44IA-1U",
-              "aspectratio": "16:9",
-              "autoplay": false,
-              "loop": false
-            }
-          },
-          "title": "",
-          "text": "Casinolegal.fr est un organisme non-affilié et indépendant à but non-lucratif. ",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-info\" href=\"https://plus.google.com/u/8/106092007168314349407\" data-toolbar=\"-mbrBtnMove\">En savoir plus</a>"
+          "title": "<span style=\"font-weight: normal;\">&nbsp;JOUER COMPORTE DES RISQUES : ENDETTEMENT, ISOLEMENT, DÉPENDANCE POUR ÊTRE AIDÉ(E), APPELEZ LE 09 74 75 13 13 (APPEL NON SURTAXÉ)</span>",
+          "caption": ""
         },
         {
-          "subtitle1": "Awesome",
-          "subtitle2": "Awesome",
-          "subtitle3": "Awesome",
-          "subtitle4": "Awesome",
+          "_styles": {
+            ".mbr-section-title, .mbr-section-subtitle, .btn": {
+              "color": "#fff"
+            },
+            ".mbr-section-title": {
+              "font-weight": "700",
+              "text-align": "right",
+              "font-size": "100px",
+              "font-family": "'Oswald', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Oswald:400,300,700"
+            },
+            ".mbr-section-subtitle": {
+              "text-align": "right"
+            },
+            "SPAN": {
+              "font-size": "46px",
+              "font-family": "'Open Sans', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Open+Sans:400,300,700"
+            }
+          },
+          "alias": "colorm/components",
           "_tags": [
             "Theme"
           ],
-          "_name": "features15",
-          "_styles": {
-            ".mbr-iconfont": {
-              "background": "#bb412e",
-              "border-color": "#bb412e"
-            },
-            ".card-text": {
-              "font-size": "14px"
-            },
-            ".heading-text": {
-              "font-size": "18px",
-              "font-family": "'Montserrat', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Montserrat:400,700"
-            },
-            ".heading-title": {
-              "font-size": "32px"
-            },
-            ".card-title": {
-              "font-size": "18px",
-              "text-align": "center",
-              "font-family": "'Montserrat', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Montserrat:400,700"
-            },
-            ".heading-title B": {
-              "font-family": "'Montserrat', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Montserrat:400,700"
-            }
-          },
-          "_anchor": "features15-e",
+          "_name": "header2",
+          "_anchor": "header2-1",
           "_params": {
-            "paddingTop": 1,
-            "paddingBottom": "0",
-            "contentAlign": "center",
-            "iconsBgColor": "#bb412e",
-            "parallax": false,
+            "buttonAlign": "right",
+            "iconsColor": "#ffffff",
+            "parallax": true,
             "bgImageRadio": false,
-            "bgImage": "@THEME_PATH@/components/_images/header/02.jpg",
-            "bgColor": "#fffffd",
-            "bgColorRadio": true,
+            "showArrow": true,
+            "bgImage": "@THEME_PATH@/components/_images/header/05.jpg",
+            "bgColor": "#8e44ad",
+            "bgColorRadio": false,
             "bgVideo": {
-              "url": "http://www.youtube.com/watch?v=fwkKc6M60-0"
+              "width": 1280,
+              "height": 720,
+              "url": "https://www.youtube.com/embed/CBAhjbJ47pU?rel=0&amp;showinfo=0&autoplay=0&loop=0"
             },
-            "bgVideoRadio": false,
+            "bgVideoRadio": true,
             "overlay": true,
-            "overlayOpacity": 0.95,
-            "overlayColor": "#fffffd",
-            "showHeading": true,
+            "overlayOpacity": "0.3",
+            "overlayColor": "#000000",
             "showTitle": true,
-            "showText": true,
-            "showButtons": false,
-            "showFeatures": true,
-            "columns": "4",
-            "showFeaturesImages": true,
-            "showFeaturesTitles": true,
-            "showFeaturesTexts": true,
-            "showFeaturesButtons": false
+            "showText": false,
+            "showButtons": false
           },
-          "title": "<b>RESULTATS DU SONDAGE ANNUEL CASINOLEGAL.FR</b>",
-          "text": "<span style=\"line-height: 1.7em;\">Nous avons classifié les sites de jeux en ligne selon 5 catégories: régularité des jeux, support, délais de paiement, sécurité, contrôle. La note maximale par catégorie est de 10. Les répondants anonymes parmi les 2000 utilisateurs réguliers interrogés se sont exprimés en fonction de leurs expériences personnelles sur chacune des 4 catégories.</span><br>",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\">GET STARTED</a>",
-          "media1": {
-            "iconFont": {
-              "class": "mbr-iconfont",
-              "linkInNewWindow": false,
-              "name": "banknote",
-              "family": "linecons",
-              "active": true,
-              "link": "",
-              "color": "#ffffff",
-              "newWindow": false
-            }
-          },
-          "title1": "Délais de paiement",
-          "text1": "",
-          "button1": "<a data-app-btn=\"true\" class=\"btn btn-sm btn-primary\" href=\"https://mobirise.com\">Learn more</a>",
-          "media2": {
-            "iconFont": {
-              "class": "mbr-iconfont",
-              "linkInNewWindow": false,
-              "name": "hardware-security",
-              "family": "Material-Design-Icons",
-              "active": true,
-              "link": "",
-              "newWindow": false
-            }
-          },
-          "title2": "Sécurité",
-          "text2": "&nbsp;",
-          "button2": "<a data-app-btn=\"true\" class=\"btn btn-sm btn-primary\" href=\"https://mobirise.com\">Learn more</a>",
-          "media3": {
-            "iconFont": {
-              "class": "mbr-iconfont",
-              "linkInNewWindow": false,
-              "name": "wechat",
-              "family": "FontAwesome",
-              "active": true,
-              "link": "",
-              "newWindow": false
-            }
-          },
-          "title3": "Service de support<br>",
-          "text3": "",
-          "button3": "<a data-app-btn=\"true\" class=\"btn btn-sm btn-primary\" href=\"https://mobirise.com\">Learn more</a>",
-          "media4": {
-            "iconFont": {
-              "class": "mbr-iconfont",
-              "linkInNewWindow": false,
-              "name": "legal",
-              "family": "FontAwesome",
-              "active": true,
-              "link": "",
-              "newWindow": false
-            }
-          },
-          "title4": "Légalité&nbsp;",
-          "text4": "",
-          "button4": "<a data-app-btn=\"true\" class=\"btn btn-sm btn-primary\" href=\"https://mobirise.com\">Learn more</a>"
+          "title": "JOUER<br>VIBRER<br>GAGNER<br><br><br>",
+          "text": "Cut down the development time with drag-and-drop website builder. Drop the blocks you like into your page, edit content inline and publish - no technical skills required.",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-icon\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove,-mbrBtnColor\"><span class=\"socicon socicon-twitter mbr-iconfont mbr-iconfont-btn\" style=\"color: rgb(255, 255, 255);\"></span></a>  ",
+          "arrowDown": "@PROJECT_PATH@/assets/images/arrowdown.png"
         },
         {
+          "_styles": {
+            ".mbr-section-title": {
+              "font-weight": "700",
+              "font-size": "60px",
+              "font-family": "'Roboto', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Roboto:400,300,700"
+            },
+            ".mbr-section-subtitle": {
+              "text-transform": "uppercase",
+              "letter-spacing": "2px",
+              "color": "#fff",
+              "font-size": "10px"
+            },
+            ".mbr-section-subtitle SPAN": {
+              "text-align": "left"
+            }
+          },
+          "title1": "Bootstrap 4",
+          "title2": "Responsive",
+          "title3": "Web Fonts",
+          "title4": "Unlimited Sites",
+          "title5": "Trendy Website Blocks",
+          "title6": "Host Anywhere",
+          "alias": "colorm/components",
           "_tags": [
             "Theme"
           ],
-          "_name": "pricing-table3",
-          "_styles": {
-            ".mbr-price-figure": {
-              "font-size": "32px",
-              "text-align": "right",
-              "color": "#fffcf6"
-            },
-            ".mbr-plan-price-desc": {
-              "text-align": "right",
-              "font-size": "13px",
-              "color": "#fffffd"
-            },
-            "UL": {
-              "text-align": "right",
-              "font-size": "18px",
-              "font-family": "'Montserrat', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Montserrat:400,700"
-            },
-            ".mbr-section__container .mbr-section-subtitle": {
-              "text-align": "left",
-              "font-size": "22px"
-            },
-            ".mbr-section__container .mbr-section-title": {
-              "font-size": "32px"
-            },
-            ".btn": {
-              "font-size": "13px"
-            }
-          },
-          "_anchor": "pricing-table3-b",
+          "_name": "features1",
+          "_anchor": "features1-4",
           "_params": {
-            "showIcons": false,
-            "bgColor1": "#5f90da",
-            "bgColor2": "#2ed617",
             "paddingTop": "0",
             "paddingBottom": "0",
             "parallax": true,
-            "bgImageRadio": false,
-            "bgImage": "@THEME_PATH@/components/_images/_background/tabs1.jpg",
-            "bgColor": "#ffffff",
-            "bgColorRadio": true,
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/mbr-2000x1324.jpg",
+            "bgColor": "#000000",
+            "bgColorRadio": false,
             "bgVideo": {
-              "url": "http://www.youtube.com/watch?v=fwkKc6M60-0"
-            },
-            "bgVideoRadio": false,
-            "overlay": false,
-            "overlayOpacity": 0.5,
-            "overlayColor": "#222",
-            "showTitle": false,
-            "showSubtitle": false,
-            "firstType": "",
-            "showButtons": true,
-            "secondType": "",
-            "thirdType": "primary",
-            "fourthType": ""
-          },
-          "title": "",
-          "subtitle": "",
-          "title1": "",
-          "price1": "casino1 club",
-          "period1": "",
-          "description1": "Note globale: 30",
-          "list1": "<ul class=\"list-group list-group-flush\"><br><li class=\"list-group-item\">support: 6</li><li class=\"list-group-item\">délais de paiement: 9</li><li class=\"list-group-item\">sécurité: 5</li><li class=\"list-group-item\">contrôle: 10</li></ul>",
-          "button1": "<a data-app-btn=\"true\" href=\"http://tracking.adxsupply.com/cWQB_1HwZYAUylDop\" class=\"btn btn-lg btn-white\" data-toolbar=\"-mbrBtnMove\">VISITER LE SITE</a>",
-          "title2": "",
-          "price2": "cashpot",
-          "period2": "",
-          "description2": "Note globale: 24",
-          "list2": "<ul class=\"list-group list-group-flush\"><br><li class=\"list-group-item\">support: 8</li><li class=\"list-group-item\"><span style=\"line-height: 1.5;\">délais de paiement: 3</span></li><li class=\"list-group-item\">sécurité: 9</li><li class=\"list-group-item\">contrôle: 4</li></ul>",
-          "button2": "<a data-app-btn=\"true\" href=\"http://tracking.adxsupply.com/cWQB8i3wZYAUylDoS\" class=\"btn btn-lg btn-white\" data-toolbar=\"-mbrBtnMove\">VISITER LE SITE</a>",
-          "title3": "",
-          "price3": "vegasfiesta",
-          "period3": "",
-          "description3": "Note globale: 38",
-          "list3": "<ul class=\"list-group list-group-flush\"><br><li class=\"list-group-item\">Service de support : 10</li><li class=\"list-group-item\">Délais de paiement : 9</li><li class=\"list-group-item\">Sécurité : 9</li><li class=\"list-group-item\">Légalité : 10</li></ul>",
-          "button3": "<a data-app-btn=\"true\" href=\"https://goo.gl/pVzjsC\" class=\"btn btn-lg btn-primary\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">VISITER LE SITE GAGNANT</a> ",
-          "title4": "",
-          "price4": "blu",
-          "period4": "",
-          "description4": "Note globale: 22",
-          "list4": "<ul class=\"list-group list-group-flush\"><br><li class=\"list-group-item\">support: 7</li><li class=\"list-group-item\">délais de paiement: 6</li><li class=\"list-group-item\">sécurité: 4</li><li class=\"list-group-item\">contrôle: 5</li></ul>",
-          "button4": "<a data-app-btn=\"true\" href=\"http://tracking.adxsupply.com/cWQByfStJnx3pAPgu\" class=\"btn btn-lg btn-white\" data-toolbar=\"-mbrBtnMove\">VISITER LE SITE</a>"
-        },
-        {
-          "_inherit": "gallery1",
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "gallery2",
-          "_params": {
-            "paddingTop": "0",
-            "paddingBottom": "0",
-            "images": [
-              {
-                "tags": "Awesome",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/casino1club-2000x1500-800x600.png",
-                "image": "@PROJECT_PATH@/assets/images/casino1club-2000x1500.png",
-                "caption": "Type caption here",
-                "active": false
-              },
-              {
-                "tags": "Responsive",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/cashpot-logo-2000x1500-800x600.png",
-                "image": "@PROJECT_PATH@/assets/images/cashpot-logo-2000x1500.png",
-                "caption": "Type caption here",
-                "active": false
-              },
-              {
-                "tags": "Beautiful",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/15936746-0-vegasfiestalogopink-1-2000x1500-800x600.png",
-                "image": "@PROJECT_PATH@/assets/images/15936746-0-vegasfiestalogopink-1-2000x1500.png",
-                "caption": "Type caption here",
-                "active": true
-              },
-              {
-                "tags": "Animated",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/casino-blu-2000x1500-800x600.png",
-                "image": "@PROJECT_PATH@/assets/images/casino-blu-2000x1500.png",
-                "caption": "Type caption here",
-                "active": false
-              }
-            ],
-            "spacing": "1",
-            "showText": false,
-            "filter": false,
-            "bgColor": "#fffffd",
-            "filterBgColor": false,
-            "fullWidth": true,
-            "showBullets": false
-          },
-          "_anchor": "gallery2-6",
-          "articleLayout": false,
-          "allItem": "All",
-          "arrowleft": "<img src=\"@PROJECT_PATH@/assets/images/arrowleft.png\">",
-          "arrowright": "<img src=\"@PROJECT_PATH@/assets/images/arrowright.png\">"
-        },
-        {
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "footer2",
-          "_styles": {
-            ".footer-list": {
-              "color": "#fffffd"
-            },
-            ".btn-social": {
-              "border-color": "@infoColor",
-              "color": "@infoColor"
-            },
-            ".btn-social:hover": {
-              "background": "@infoColor",
-              "color": "#fff"
-            },
-            ".footer-header": {
-              "text-align": "center",
-              "font-size": "10px"
-            }
-          },
-          "_anchor": "footer2-c",
-          "_params": {
-            "listColor": "#fffffd",
-            "btnColor": "@infoColor",
-            "paddingTop": "0",
-            "paddingBottom": 1,
-            "parallax": false,
-            "bgImageRadio": false,
-            "bgImage": "@THEME_PATH@/components/_images/header/01.jpg",
-            "bgColor": "#fff",
-            "bgColorRadio": true,
-            "bgVideo": {
-              "url": "https://www.youtube.com/watch?v=7LDRrdD-Qww"
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
             "bgVideoRadio": false,
             "overlay": true,
-            "overlayOpacity": 0.4,
-            "overlayColor": "#000",
-            "rows": "1",
-            "showIcons": true
-          },
-          "heading": "",
-          "list1": "",
-          "list2": "<a href=\"http://mobirise.com\">Bootstrap Builder</a>",
-          "list3": "<a href=\"http://mobirise.com\">Trendy website blocks</a>",
-          "list4": "<a href=\"http://mobirise.com\">Host anywhere</a>",
-          "list5": "<a href=\"http://mobirise.com\">Image/Content slider</a>",
-          "list6": "<a href=\"http://mobirise.com\">Contact forms</a>",
-          "list7": "<a href=\"http://mobirise.com\">Image gallery</a>",
-          "list8": "<a href=\"http://mobirise.com\">Mobile menu</a>",
-          "list9": "<a href=\"http://mobirise.com\">Google maps</a>",
-          "list10": "<a href=\"http://mobirise.com\">Fonts and icons</a>",
-          "icons": "<a data-app-btn=\"true\" class=\"btn btn-social\" title=\"Twitter\" target=\"_blank\" href=\"mailto:@MaximilienDufr4\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrBtnColor\"><i class=\"socicon socicon-twitter\"></i></a> <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"Facebook\" target=\"_blank\" href=\"https://www.facebook.com/casinosafe\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrBtnColor\"><i class=\"socicon socicon-facebook\"></i></a> <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"Google+\" target=\"_blank\" href=\"https://plus.google.com/u/8/106092007168314349407\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrBtnColor\"><i class=\"socicon socicon-google\"></i></a> <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"YouTube\" target=\"_blank\" href=\"https://www.youtube.com/channel/UCYk38DcoxlUU0GN8V6tUoGA/featured\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrBtnColor\"><i class=\"socicon socicon-youtube\"></i></a>       "
-        },
-        {
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "form1",
-          "_styles": {
-            ".form": {
-              "background": "#fafbfc"
-            },
-            ".heading-title": {
-              "font-size": "24px"
-            }
-          },
-          "_anchor": "form1-d",
-          "_params": {
-            "paddingTop": 1,
-            "paddingBottom": 1,
-            "formBg": "#fafbfc",
-            "parallax": false,
-            "bgImageRadio": false,
-            "bgImage": "@THEME_PATH@/components/_images/header/01.jpg",
-            "bgColor": "#fffffd",
-            "bgColorRadio": true,
-            "bgVideo": {
-              "url": "http://www.youtube.com/watch?v=fwkKc6M60-0"
-            },
-            "bgVideoRadio": false,
-            "overlay": true,
-            "overlayOpacity": 0.95,
-            "overlayColor": "#fffffd",
-            "showHeading": true,
+            "overlayOpacity": "0.7",
+            "overlayColor": "#000000",
             "showTitle": true,
-            "showText": false,
-            "showButtons": false,
-            "formHeader": true
+            "columns": 4,
+            "showImages": true,
+            "showTitles": true,
+            "ShowTexts": false,
+            "showButtons": true
           },
-          "title": "Des suggestions, ou autres commentaires et questions, n'hesitez pas a nous contacter directement.",
-          "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates, sed iusto corrupti explicabo. Dignissimos, harum. Adipisci dolorem odit minima assumenda nostrum quam nihil, iusto, ad eligendi laudantium doloribus eius reiciendis.",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\">Get started</a>",
-          "header": "Envoyez nous un message par le biais du formulaire ci-dessous:",
-          "form": {
-            "action": "maximilien.dufresne@casinolegal.fr",
-            "alerts": {
-              "success": "Nous vous remercions de votre message. Nous nous efforcerons de repondre a votre message dans les plus brefs delais"
+          "title": "<br>ENREGISTREZ VOUS ET PROFITER DE NOS PROMOTIONS EXCLUSIVES",
+          "media1": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/pires-600x286.jpg",
+              "class": "features-img",
+              "width": 600,
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
             },
-            "fields": {
-              "name": {
-                "title": "Name",
-                "visible": true,
-                "customTitle": "Nom*"
-              },
-              "email": {
-                "title": "Email",
-                "visible": true,
-                "customTitle": "Email*"
-              },
-              "phone": {
-                "title": "Phone",
-                "visible": true,
-                "customTitle": "Tel*"
-              },
-              "message": {
-                "title": "Message",
-                "customTitle": "Message"
-              }
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-features4",
+              "name": "phone",
+              "link": "https://mobirise.com",
+              "size": 0,
+              "color": "#fff",
+              "family": "et-line"
             }
           },
-          "buttons1": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-lg btn-primary\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">Envoyer</a>"
-        },
-        {
-          "_customTemplate": true,
-          "_afterNavbarItem": false,
-          "_customHTML": "<!-- Facebook Pixel Code -->\n{JS_CODE_0}\n<noscript>&amp;amp;amp;amp;lt;img height=\"1\" width=\"1\" style=\"display:none\"\nsrc=\"https://www.facebook.com/tr?id=126124557941150&amp;amp;amp;amp;amp;ev=PageView&amp;amp;amp;amp;amp;noscript=1\"\n/&amp;amp;amp;amp;gt;</noscript>\n<!-- DO NOT MODIFY -->\n<!-- End Facebook Pixel Code -->\n",
-          "_customCSS": "/* Type valid CSS here */\n.my-image {\n  width: 100%;\n}",
-          "alias": "code-editor",
-          "_tags": [
-            "Extension"
-          ],
-          "_name": "pro.custom-html",
-          "_PHPplaceholders": [],
-          "_JSplaceholders": [
-            "<script>\n!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?\nn.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;\nn.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;\nt.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,\ndocument,'script','https://connect.facebook.net/en_US/fbevents.js');\nfbq('init', '126124557941150'); // Insert your pixel ID here.\nfbq('track', 'PageView');\n</script>"
-          ],
-          "_anchor": "custom-html-h"
+          "subtitle1": "ROBERT PIRES VIENT MUSCLER L’OFFRE BWIN !<div>NOUS SOMMES RAVIS DE VOUS ANNONCER CE PARTENARIAT DONT VOUS SEREZ LES TÉMOINS ET LES BÉNÉFICIAIRES PRIVILÉGIÉS ! PLUS D'INFOS ICI</div>",
+          "caption1": "<span style=\"font-size: 1rem; line-height: 1.85em; background-color: transparent;\">Tous les joueurs, amateurs ou professionnels, rêvent de jouer un jour dans la capitale du poker : Las Vegas ! Vous êtes l'un d'eux ? Voici une occasion exceptionnelle de réaliser votre rêve avec notre promotion “Live the Dream” !</span><br><br>Gagnez des packages fantastiques incluant les tickets pour un Event à 1 500 $, 6 nuits d'hôtel et de l'argent pour vos dépenses personnelles, simplement en jouant à votre jeu préféré : le poker ! Chaque samedi à 19h00 (CEST), ce rêve peut devenir réalité pour 100 € seulement avec notre tournoi “Live the Dream” (1 réinscription).<br>",
+          "buttons1": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\" data-toolbar=\"-mbrBtnMove\"><span class=\"mbri-cursor-click mbr-iconfont mbr-iconfont-btn\"></span>INFO</a>",
+          "media2": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/promobwin-600x286.jpg",
+              "class": "features-img",
+              "width": 600,
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-features4",
+              "name": "edit",
+              "link": "https://mobirise.com",
+              "size": 0,
+              "color": "#fff",
+              "family": "et-line"
+            }
+          },
+          "subtitle2": "Nouveaux inscrits : vos &nbsp;PREmiers pas et vos premiers succès !<span style=\"line-height: 1.85em; background-color: transparent;\">Découvrez notre offre de bienvenue et obtenez jusqu'à 100 € remboursés en argent réel sur votre premier pari !</span>",
+          "caption2": "",
+          "buttons2": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\" data-toolbar=\"-mbrBtnMove\"><span class=\"mbri-cursor-click mbr-iconfont mbr-iconfont-btn\"></span>INFO</a>",
+          "media3": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/tennis-600x286.jpg",
+              "class": "features-img",
+              "width": 600,
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-features4",
+              "name": "briefcase",
+              "link": "https://mobirise.com",
+              "size": 0,
+              "color": "#fff",
+              "family": "et-line"
+            }
+          },
+          "subtitle3": "Tennis, Tennis, Tennis!&nbsp;<span style=\"line-height: 1.85em; text-align: center; background-color: transparent;\">2 offres sur le tennis sont disponibles&nbsp;</span><span style=\"line-height: 1.85em; background-color: transparent;\">pour vous</span><br><span style=\"line-height: 1.85em; background-color: transparent;\"><br></span><br><span style=\"line-height: 1.85em; background-color: transparent;\"><br></span><span style=\"line-height: 1.85em; background-color: transparent;\"><br></span>",
+          "caption3": "<br><br>",
+          "buttons3": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\" data-toolbar=\"-mbrBtnMove\"><span class=\"mbri-cursor-click mbr-iconfont mbr-iconfont-btn\"></span>INFO</a>",
+          "media4": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/foot-600x286.jpg",
+              "class": "features-img",
+              "width": 600,
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-features4",
+              "name": "linegraph",
+              "link": "https://mobirise.com",
+              "size": 0,
+              "color": "#fff",
+              "family": "et-line"
+            }
+          },
+          "subtitle4": "MultiCash&nbsp;<span style=\"line-height: 1.85em; text-align: center; background-color: transparent;\">Placez des paris combinés d'au moins 3 sélections et obtenez jusqu'à 50% de gains supplémentaires en CASH !</span><br><span style=\"line-height: 1.85em; text-align: center; background-color: transparent;\"><br></span><span style=\"line-height: 1.85em; text-align: center; background-color: transparent;\"><br></span>",
+          "caption4": "Placez des paris sur le tennis durant tout l'été, engrangez des points pour le classement général et empochez des récompenses cash avec nos classements hebdomadaires ! Au total 500 000 € sont en jeu ! Plus d'informations. ",
+          "buttons4": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\" data-toolbar=\"-mbrBtnMove\"><span class=\"mbri-cursor-click mbr-iconfont mbr-iconfont-btn\"></span>INFO</a>",
+          "media5": {
+            "image": {
+              "active": true,
+              "src": "@THEME_PATH@/components/_images/features/05.jpg",
+              "class": "features-img",
+              "width": 600
+            },
+            "iconFont": {
+              "active": false,
+              "class": "mbr-iconfont mbr-iconfont-features4",
+              "name": "briefcase",
+              "link": "https://mobirise.com",
+              "size": 0,
+              "color": "#fff",
+              "family": "et-line"
+            }
+          },
+          "subtitle5": "Choose from the large selection of blocks",
+          "caption5": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
+          "buttons5": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">learn more</a>",
+          "media6": {
+            "image": {
+              "active": true,
+              "src": "@THEME_PATH@/components/_images/features/06.jpg",
+              "class": "features-img",
+              "width": 600
+            },
+            "iconFont": {
+              "active": false,
+              "class": "mbr-iconfont mbr-iconfont-features4",
+              "name": "linegraph",
+              "link": "https://mobirise.com",
+              "size": 0,
+              "color": "#fff",
+              "family": "et-line"
+            }
+          },
+          "subtitle6": "Don't limit yourself to just one platform",
+          "caption6": "Publish your website to a local drive, FTP or host on Amazon S3, Google Drive, Github. Don't limit yourself to just one platform or service provider.",
+          "buttons6": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">learn more</a>"
         }
       ]
     }
