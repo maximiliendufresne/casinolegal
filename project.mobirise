@@ -1,6 +1,6 @@
 {
   "settings": {
-    "name": "NewSite-05-30_1511",
+    "name": "CASINOLEGAL/BWIN",
     "currentPage": "index.html",
     "theme": {
       "name": "colorm",
@@ -23,7 +23,11 @@
     },
     "versionFirst": "3.12.1",
     "uniqCompNum": 5,
-    "versionPublish": "3.12.1"
+    "versionPublish": "3.12.1",
+    "favicon": "@PROJECT_PATH@/assets/images/15930846-0-logo-casino-legal-128x27.png",
+    "noImageResize": "",
+    "google-analytics": "",
+    "cookiesAlert": "We use cookies to give you the best experience. Read our <a href='privacy.html'>cookie policy</a>."
   },
   "pages": {
     "index.html": {
