@@ -18,7 +18,7 @@
         "textFont": "Open Sans",
         "isRoundedButtons": true,
         "isAnimatedOnScroll": true,
-        "isScrollToTopButton": false
+        "isScrollToTopButton": true
       }
     },
     "versionFirst": "3.12.1",
@@ -90,8 +90,8 @@
             },
             "SPAN": {
               "font-size": "46px",
-              "font-family": "'Open Sans', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Open+Sans:400,300,700"
+              "font-family": "'Arvo', serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Arvo:400,400i,700,700i"
             }
           },
           "alias": "colorm/components",
@@ -120,11 +120,11 @@
             "overlayColor": "#000000",
             "showTitle": true,
             "showText": false,
-            "showButtons": false
+            "showButtons": true
           },
-          "title": "JOUER<br>VIBRER<br>GAGNER<br><br><br>",
+          "title": "<a href=\"http://servedbytrackingdesk.com/592d31f1dad1472b5ed1c04f/click/1\" target=\"_blank\">JOUER</a><br><a href=\"http://servedbytrackingdesk.com/592d31f1dad1472b5ed1c04f/click/1\" target=\"_blank\">VIBRER</a><br><a href=\"http://servedbytrackingdesk.com/592d31f1dad1472b5ed1c04f/click/1\" target=\"_blank\">GAGNER</a><br><br>",
           "text": "Cut down the development time with drag-and-drop website builder. Drop the blocks you like into your page, edit content inline and publish - no technical skills required.",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-icon\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove,-mbrBtnColor\"><span class=\"socicon socicon-twitter mbr-iconfont mbr-iconfont-btn\" style=\"color: rgb(255, 255, 255);\"></span></a>  ",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-icon\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove,-mbrBtnColor\"></a>  ",
           "arrowDown": "@PROJECT_PATH@/assets/images/arrowdown.png"
         },
         {
@@ -179,7 +179,7 @@
             "ShowTexts": false,
             "showButtons": true
           },
-          "title": "<br>ENREGISTREZ VOUS ET PROFITER DE NOS PROMOTIONS EXCLUSIVES",
+          "title": "<br><a href=\"http://servedbytrackingdesk.com/592d31f1dad1472b5ed1c04f/click/1\" target=\"_blank\">ENREGISTREZ VOUS ET PROFITER DE NOS PROMOTIONS EXCLUSIVES</a>",
           "media1": {
             "image": {
               "active": true,
@@ -202,7 +202,7 @@
           },
           "subtitle1": "ROBERT PIRES VIENT MUSCLER L’OFFRE BWIN !<div>NOUS SOMMES RAVIS DE VOUS ANNONCER CE PARTENARIAT DONT VOUS SEREZ LES TÉMOINS ET LES BÉNÉFICIAIRES PRIVILÉGIÉS ! PLUS D'INFOS ICI</div>",
           "caption1": "<span style=\"font-size: 1rem; line-height: 1.85em; background-color: transparent;\">Tous les joueurs, amateurs ou professionnels, rêvent de jouer un jour dans la capitale du poker : Las Vegas ! Vous êtes l'un d'eux ? Voici une occasion exceptionnelle de réaliser votre rêve avec notre promotion “Live the Dream” !</span><br><br>Gagnez des packages fantastiques incluant les tickets pour un Event à 1 500 $, 6 nuits d'hôtel et de l'argent pour vos dépenses personnelles, simplement en jouant à votre jeu préféré : le poker ! Chaque samedi à 19h00 (CEST), ce rêve peut devenir réalité pour 100 € seulement avec notre tournoi “Live the Dream” (1 réinscription).<br>",
-          "buttons1": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\" data-toolbar=\"-mbrBtnMove\"><span class=\"mbri-cursor-click mbr-iconfont mbr-iconfont-btn\"></span>INFO</a>",
+          "buttons1": "<a data-app-btn=\"true\" href=\"http://servedbytrackingdesk.com/592d31f1dad1472b5ed1c04f/click/1\" class=\"btn btn-primary\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\"><span class=\"mbri-cursor-click mbr-iconfont mbr-iconfont-btn\"></span>INFO</a>",
           "media2": {
             "image": {
               "active": true,
@@ -225,7 +225,7 @@
           },
           "subtitle2": "Nouveaux inscrits : vos &nbsp;PREmiers pas et vos premiers succès !<span style=\"line-height: 1.85em; background-color: transparent;\">Découvrez notre offre de bienvenue et obtenez jusqu'à 100 € remboursés en argent réel sur votre premier pari !</span>",
           "caption2": "",
-          "buttons2": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\" data-toolbar=\"-mbrBtnMove\"><span class=\"mbri-cursor-click mbr-iconfont mbr-iconfont-btn\"></span>INFO</a>",
+          "buttons2": "<a data-app-btn=\"true\" href=\"http://servedbytrackingdesk.com/592d31f1dad1472b5ed1c04f/click/1\" class=\"btn btn-primary\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\"><span class=\"mbri-cursor-click mbr-iconfont mbr-iconfont-btn\"></span>INFO</a>",
           "media3": {
             "image": {
               "active": true,
@@ -248,7 +248,7 @@
           },
           "subtitle3": "Tennis, Tennis, Tennis!&nbsp;<span style=\"line-height: 1.85em; text-align: center; background-color: transparent;\">2 offres sur le tennis sont disponibles&nbsp;</span><span style=\"line-height: 1.85em; background-color: transparent;\">pour vous</span><br><span style=\"line-height: 1.85em; background-color: transparent;\"><br></span><br><span style=\"line-height: 1.85em; background-color: transparent;\"><br></span><span style=\"line-height: 1.85em; background-color: transparent;\"><br></span>",
           "caption3": "<br><br>",
-          "buttons3": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\" data-toolbar=\"-mbrBtnMove\"><span class=\"mbri-cursor-click mbr-iconfont mbr-iconfont-btn\"></span>INFO</a>",
+          "buttons3": "<a data-app-btn=\"true\" href=\"http://servedbytrackingdesk.com/592d31f1dad1472b5ed1c04f/click/1\" class=\"btn btn-primary\" data-toolbar=\"-mbrBtnMove\"><span class=\"mbri-cursor-click mbr-iconfont mbr-iconfont-btn\"></span>INFO</a>",
           "media4": {
             "image": {
               "active": true,
@@ -271,7 +271,7 @@
           },
           "subtitle4": "MultiCash&nbsp;<span style=\"line-height: 1.85em; text-align: center; background-color: transparent;\">Placez des paris combinés d'au moins 3 sélections et obtenez jusqu'à 50% de gains supplémentaires en CASH !</span><br><span style=\"line-height: 1.85em; text-align: center; background-color: transparent;\"><br></span><span style=\"line-height: 1.85em; text-align: center; background-color: transparent;\"><br></span>",
           "caption4": "Placez des paris sur le tennis durant tout l'été, engrangez des points pour le classement général et empochez des récompenses cash avec nos classements hebdomadaires ! Au total 500 000 € sont en jeu ! Plus d'informations. ",
-          "buttons4": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\" data-toolbar=\"-mbrBtnMove\"><span class=\"mbri-cursor-click mbr-iconfont mbr-iconfont-btn\"></span>INFO</a>",
+          "buttons4": "<a data-app-btn=\"true\" href=\"http://servedbytrackingdesk.com/592d31f1dad1472b5ed1c04f/click/1\" class=\"btn btn-primary\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\"><span class=\"mbri-cursor-click mbr-iconfont mbr-iconfont-btn\"></span>INFO</a>",
           "media5": {
             "image": {
               "active": true,

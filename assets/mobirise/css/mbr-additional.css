@@ -1,7 +1,7 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,700);
 @import url(https://fonts.googleapis.com/css?family=Oswald:400,300,700);
-@import url(https://fonts.googleapis.com/css?family=Roboto:400,300,700);
 @import url(https://fonts.googleapis.com/css?family=Arvo:400,400i,700,700i);
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,300,700);
 @import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
 
 
@@ -519,9 +519,6 @@ textarea,
 .mbr-gallery-filter li:hover {
   color: #f39c12;
 }
-.scrollToTop_wraper {
-  opacity: 0 !important;
-}
 /*colorM*/
 /*nav-tabs*/
 .header5 .nav-tabs .nav-link:after {
@@ -747,7 +744,7 @@ blockquote {
 }
 #header2-1 SPAN {
   font-size: 46px;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Arvo', serif;
 }
 #features1-4 .mbr-section-title {
   font-weight: 700;
