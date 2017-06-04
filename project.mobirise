@@ -45,16 +45,6 @@
             "Theme"
           ],
           "_name": "content5",
-          "_styles": {
-            ".mbr-section-title": {
-              "font-family": "'Open Sans', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Open+Sans:400,300,700",
-              "font-size": "25px"
-            },
-            ".mbr-section-title SPAN": {
-              "font-size": "17px"
-            }
-          },
           "_anchor": "content5-2",
           "_params": {
             "paddingTop": "0",
@@ -75,7 +65,14 @@
             "showCaption": true
           },
           "title": "<span style=\"font-weight: normal;\"><br></span><span style=\"font-weight: normal;\">&nbsp;JOUER COMPORTE DES RISQUES : ENDETTEMENT, ISOLEMENT, DÉPENDANCE POUR ÊTRE AIDÉ(E), APPELEZ LE 09 74 75 13 13 (APPEL NON SURTAXÉ)</span>",
-          "caption": ""
+          "caption": "",
+          "_customHTML": "<section class=\"mbr-section content5\" style=\"background-color: rgb(0, 0, 0); padding-top: 0px; padding-bottom: 0px;\">\n\n    \n\n    <div class=\"container\">\n        <h3 class=\"mbr-section-title display-2 mbr-editable-content\" code-editable-id=\"5\"><span style=\"font-weight: normal;\"><br></span><span style=\"font-weight: normal;\">&nbsp;JOUER COMPORTE DES RISQUES : ENDETTEMENT, ISOLEMENT, DÉPENDANCE POUR ÊTRE AIDÉ(E), APPELEZ LE 09 74 75 13 13 (APPEL NON SURTAXÉ)</span></h3>\n        <div class=\"lead mbr-editable-content\" code-editable-id=\"6\"></div>\n        \n        {JS_CODE_0}\n    </div>\n\n</section>",
+          "_PHPplaceholders": [],
+          "_JSplaceholders": [
+            "<script src=\"//servedbytrackingdesk.com/ct?c=WTP-THwZYAUylNCU\"></script>"
+          ],
+          "_customCSS": "@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,700);\n.mbr-section-title {\n\tfont-family: 'Open Sans', sans-serif;\n\tfont-size: 25px;\n}\n.mbr-section-title SPAN {\n\tfont-size: 17px;\n}\n",
+          "_customTemplate": true
         },
         {
           "_styles": {
