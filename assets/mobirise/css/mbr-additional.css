@@ -9,6 +9,7 @@
 
 
 
+
 body,
 input,
 textarea,
@@ -42,12 +43,6 @@ textarea,
 .mbr-footer-content strong,
 .mbr-footer .mbr-contacts strong {
   font-family: 'Arvo', serif;
-}
-.btn {
-  border-radius: 2.6em;
-}
-.mbr-gallery-filter ul li {
-  border-radius: 2.6em;
 }
 .btn-sm,
 .mbr-section-subtitle,
@@ -529,12 +524,6 @@ textarea,
 }
 /*end-nav-tabs*/
 /*mbr-arrow next and toTop*/
-.mbr-arrow a {
-  border-radius: 50% !important;
-}
-.mbr-arrow-up a {
-  border-radius: 50% !important;
-}
 .mbr-arrow a,
 .mbr-arrow-up a {
   background: rgba(243, 156, 18, 0.6);
@@ -761,4 +750,15 @@ blockquote {
 }
 #features1-4 .mbr-section-subtitle SPAN {
   text-align: left;
+}
+#form3-6 .mbr-section-subtitle {
+  text-transform: uppercase;
+  color: #f39c12;
+}
+#form3-6 .form-control-label {
+  color: undefined;
+}
+#form3-6 .mbr-section-title {
+  font-family: 'Oswald', sans-serif;
+  color: #f1c40f;
 }
