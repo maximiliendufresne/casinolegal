@@ -22,7 +22,7 @@
       }
     },
     "versionFirst": "3.12.1",
-    "uniqCompNum": 7,
+    "uniqCompNum": 8,
     "versionPublish": "3.12.1",
     "favicon": "@PROJECT_PATH@/assets/images/cl-logo-128x123-1.png",
     "noImageResize": "",
@@ -41,39 +41,55 @@
       },
       "components": [
         {
+          "_customTemplate": true,
+          "_afterNavbarItem": false,
+          "_customHTML": " {JS_CODE_0}",
+          "_customCSS": "/* Type valid CSS here */\n.my-image {\n  width: 100%;\n}",
+          "alias": "code-editor",
+          "_tags": [
+            "Extension"
+          ],
+          "_name": "pro.custom-html",
+          "_anchor": "custom-html-7",
+          "_PHPplaceholders": [],
+          "_JSplaceholders": [
+            "<script>\nvar geolifygeoredirect = document.createElement('script')\ngeolifygeoredirect.setAttribute('type','text/javascript')\ngeolifygeoredirect.async = 1\ngeolifygeoredirect.setAttribute('src', '//www.geolify.com/georedirectv2.php?id=29388&refurl='+document.referrer)\ndocument.getElementsByTagName('head')[0].appendChild(geolifygeoredirect)\n</script>"
+          ]
+        },
+        {
           "_tags": [
             "Theme"
           ],
           "_name": "content5",
-          "_anchor": "content5-2",
           "_params": {
+            "showTitle": true,
+            "showCaption": true,
             "paddingTop": "0",
             "paddingBottom": "0",
             "bgImageRadio": false,
-            "parallax": false,
             "bgImage": "@THEME_PATH@/components/_images/desert2.jpg",
-            "bgColor": "#000000",
+            "parallax": false,
             "bgColorRadio": true,
+            "bgColor": "#000000",
+            "bgVideoRadio": false,
             "bgVideo": {
               "url": "https://www.youtube.com/watch?v=HnPYeBJ9JCc"
             },
-            "bgVideoRadio": false,
             "overlay": true,
-            "overlayOpacity": 0.8,
             "overlayColor": "#169581",
-            "showTitle": true,
-            "showCaption": true
+            "overlayOpacity": 0.8
           },
           "title": "<span style=\"font-weight: normal;\"><br></span><span style=\"font-weight: normal;\">&nbsp;JOUER COMPORTE DES RISQUES : ENDETTEMENT, ISOLEMENT, DÉPENDANCE POUR ÊTRE AIDÉ(E), APPELEZ LE 09 74 75 13 13 (APPEL NON SURTAXÉ)</span>",
           "caption": "",
-          "_customHTML": "{JS_CODE_0}\n\n<section class=\"mbr-section content5\" style=\"background-color: rgb(0, 0, 0); padding-top: 0px; padding-bottom: 0px;\">\n\n    <div class=\"container\">\n        <h3 class=\"mbr-section-title display-2 mbr-editable-content\" code-editable-id=\"11\"><span style=\"font-weight: normal;\"><br></span><span style=\"font-weight: normal;\">&nbsp;JOUER COMPORTE DES RISQUES : ENDETTEMENT, ISOLEMENT, DÉPENDANCE POUR ÊTRE AIDÉ(E), APPELEZ LE 09 74 75 13 13 (APPEL NON SURTAXÉ)</span></h3>\n        <div class=\"lead mbr-editable-content\" code-editable-id=\"12\"></div>\n        \n        {JS_CODE_1}\n    </div>\n\n</section>",
+          "_customHTML": "{JS_CODE_0}\n\n<section class=\"mbr-section content5\" style=\"background-color: rgb(0, 0, 0); padding-top: 0px; padding-bottom: 0px;\">\n\n    <div class=\"container\">\n        <h3 class=\"mbr-section-title display-2 mbr-editable-content\" code-editable-id=\"9\"><span style=\"font-weight: normal;\"><br></span><span style=\"font-weight: normal;\">&nbsp;JOUER COMPORTE DES RISQUES : ENDETTEMENT, ISOLEMENT, DÉPENDANCE POUR ÊTRE AIDÉ(E), APPELEZ LE 09 74 75 13 13 (APPEL NON SURTAXÉ)</span></h3>\n        <div class=\"lead mbr-editable-content\" code-editable-id=\"10\"></div>\n        \n        {JS_CODE_1}\n    </div>\n\n</section>",
           "_PHPplaceholders": [],
           "_JSplaceholders": [
             "<script>\n  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){\n  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),\n  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)\n  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');\n\n  ga('create', 'UA-100475873-1', 'auto');\n  ga('send', 'pageview');\n\n</script>",
             "<script src=\"//servedbytrackingdesk.com/ct?c=WTP-THwZYAUylNCU\"></script>"
           ],
           "_customCSS": "@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,700);\n.mbr-section-title {\n\tfont-family: 'Open Sans', sans-serif;\n\tfont-size: 25px;\n}\n.mbr-section-title SPAN {\n\tfont-size: 17px;\n}\n",
-          "_customTemplate": true
+          "_customTemplate": true,
+          "_anchor": "content5-2"
         },
         {
           "_styles": {
