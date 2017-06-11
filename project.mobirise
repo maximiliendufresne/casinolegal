@@ -6,23 +6,23 @@
       "name": "colorm",
       "title": "ColorM",
       "styling": {
-        "primaryColor": "#f39c12",
-        "buttonsColor": "#000000",
+        "primaryColor": "#ffef05",
+        "buttonsColor": "#c0392b",
         "secondaryColor": "#9b59b6",
-        "successColor": "#2ecc71",
+        "successColor": "#dcc00e",
         "infoColor": "#3498db",
         "warningColor": "#f1c40f",
         "dangerColor": "#e74c3c",
-        "titleFont": "Arvo",
+        "titleFont": "Open Sans",
         "subtitleFont": "Montserrat",
-        "textFont": "Open Sans",
+        "textFont": "Roboto Condensed",
         "isRoundedButtons": false,
         "isAnimatedOnScroll": true,
         "isScrollToTopButton": true
       }
     },
     "versionFirst": "3.12.1",
-    "uniqCompNum": 8,
+    "uniqCompNum": 10,
     "versionPublish": "3.12.1",
     "favicon": "@PROJECT_PATH@/assets/images/cl-logo-128x123-1.png",
     "noImageResize": "",
@@ -65,7 +65,7 @@
           },
           "title": "<span style=\"font-weight: normal;\"><br></span><span style=\"font-weight: normal;\">&nbsp;JOUER COMPORTE DES RISQUES : ENDETTEMENT, ISOLEMENT, DÉPENDANCE POUR ÊTRE AIDÉ(E), APPELEZ LE 09 74 75 13 13 (APPEL NON SURTAXÉ)</span>",
           "caption": "",
-          "_customHTML": "{JS_CODE_0}\n\n<section class=\"mbr-section content5\" style=\"background-color: rgb(0, 0, 0); padding-top: 0px; padding-bottom: 0px;\">\n\n    <div class=\"container\">\n        <h3 class=\"mbr-section-title display-2 mbr-editable-content\" code-editable-id=\"9\"><span style=\"font-weight: normal;\"><br></span><span style=\"font-weight: normal;\">&nbsp;JOUER COMPORTE DES RISQUES : ENDETTEMENT, ISOLEMENT, DÉPENDANCE POUR ÊTRE AIDÉ(E), APPELEZ LE 09 74 75 13 13 (APPEL NON SURTAXÉ)</span></h3>\n        <div class=\"lead mbr-editable-content\" code-editable-id=\"10\"></div>\n        \n        {JS_CODE_1}\n    </div>\n\n</section>",
+          "_customHTML": "{JS_CODE_0}\n\n<section class=\"mbr-section content5\" style=\"background-color: rgb(0, 0, 0); padding-top: 0px; padding-bottom: 0px;\">\n\n    <div class=\"container\">\n        <h3 class=\"mbr-section-title display-2 mbr-editable-content\" code-editable-id=\"6\"><span style=\"font-weight: normal;\"><br></span><span style=\"font-weight: normal;\">&nbsp;JOUER COMPORTE DES RISQUES : ENDETTEMENT, ISOLEMENT, DÉPENDANCE POUR ÊTRE AIDÉ(E), APPELEZ LE 09 74 75 13 13 (APPEL NON SURTAXÉ)</span></h3>\n        <div class=\"lead mbr-editable-content\" code-editable-id=\"7\"></div>\n        \n        {JS_CODE_1}\n    </div>\n\n</section>",
           "_PHPplaceholders": [],
           "_JSplaceholders": [
             "<script>\n  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){\n  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),\n  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)\n  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');\n\n  ga('create', 'UA-100475873-1', 'auto');\n  ga('send', 'pageview');\n\n</script>",
@@ -77,56 +77,66 @@
         },
         {
           "_styles": {
-            ".mbr-section-title, .mbr-section-subtitle, .btn": {
-              "color": "#fff"
+            ".display-1": {
+              "font-weight": "700"
+            },
+            ".lead": {
+              "color": "#fff",
+              "text-transform": "uppercase",
+              "margin-bottom": "0"
             },
             ".mbr-section-title": {
-              "font-weight": "700",
-              "text-align": "right",
-              "font-size": "100px",
-              "font-family": "'Oswald', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Oswald:400,300,700"
+              "text-align": "center",
+              "font-family": "'Ubuntu', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Ubuntu:400,300,700",
+              "font-size": "48px"
+            },
+            ".btn": {
+              "font-size": "30px",
+              "font-family": "'Montserrat', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Montserrat:400,700"
             },
             ".mbr-section-subtitle": {
               "text-align": "right"
             },
-            "SPAN": {
-              "font-size": "46px",
-              "font-family": "'Arvo', serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Arvo:400,400i,700,700i"
+            ".mbr-section-title SPAN": {
+              "font-family": "'Ubuntu', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Ubuntu:400,300,700",
+              "color": "#ffffff",
+              "text-align": "center",
+              "font-size": "48px"
             }
           },
           "alias": "colorm/components",
           "_tags": [
             "Theme"
           ],
-          "_name": "header2",
-          "_anchor": "header2-1",
+          "_name": "header3",
+          "_anchor": "header3-9",
           "_params": {
-            "buttonAlign": "right",
-            "iconsColor": "#ffffff",
+            "buttonAlign": "center",
             "parallax": true,
             "bgImageRadio": false,
             "showArrow": true,
-            "bgImage": "@THEME_PATH@/components/_images/header/05.jpg",
-            "bgColor": "#8e44ad",
+            "bgImage": "@THEME_PATH@/components/_images/header/02.jpg",
+            "bgColor": "#16a085",
             "bgColorRadio": false,
             "bgVideo": {
               "width": 1280,
               "height": 720,
-              "url": "https://www.youtube.com/embed/CBAhjbJ47pU?rel=0&amp;showinfo=0&autoplay=0&loop=0"
+              "url": "https://www.youtube.com/embed/KSgxOWGVFiE?rel=0&amp;showinfo=0&autoplay=0&loop=0"
             },
             "bgVideoRadio": true,
             "overlay": true,
             "overlayOpacity": "0.3",
             "overlayColor": "#000000",
+            "showText": true,
             "showTitle": true,
-            "showText": false,
             "showButtons": true
           },
-          "title": "<p><a href=\"http://servedbytrackingdesk.com/592d31f1dad1472b5ed1c04f/click/1\">JOUEZ</a><a href=\"http://servedbytrackingdesk.com/592d31f1dad1472b5ed1c04f/click/1\" target=\"_blank\"></a><br><a href=\"http://servedbytrackingdesk.com/592d31f1dad1472b5ed1c04f/click/1\" target=\"_blank\">VIBREZ</a><a href=\"http://servedbytrackingdesk.com/592d31f1dad1472b5ed1c04f/click/1\" target=\"_blank\"></a><br><a href=\"http://servedbytrackingdesk.com/592d31f1dad1472b5ed1c04f/click/1\" target=\"_blank\">GAGNEZ</a><a href=\"http://servedbytrackingdesk.com/592d31f1dad1472b5ed1c04f/click/1\" target=\"_blank\"></a><br><br></p>",
-          "text": "Cut down the development time with drag-and-drop website builder. Drop the blocks you like into your page, edit content inline and publish - no technical skills required.",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-icon\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove,-mbrBtnColor\"></a>  ",
+          "text": "",
+          "title": "JOUEZ ⦿ VIBREZ &nbsp;⦿ GAGNEZ<br><br><br><br>",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"http://servedbytrackingdesk.com/592d31f1dad1472b5ed1c04f/click/2\" data-toolbar=\"-mbrBtnMove\"><span class=\"mdi-action-info-outline mbr-iconfont mbr-iconfont-btn\"></span>\u001bINFO</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"http://servedbytrackingdesk.com/592d31f1dad1472b5ed1c04f/click/1\" data-toolbar=\"-mbrBtnMove\"><span class=\"socicon socicon-play mbr-iconfont mbr-iconfont-btn\"></span>jouez</a>",
           "arrowDown": "@PROJECT_PATH@/assets/images/arrowdown.png"
         },
         {
