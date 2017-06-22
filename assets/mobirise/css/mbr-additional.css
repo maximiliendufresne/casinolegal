@@ -772,3 +772,9 @@ blockquote {
   font-family: 'Oswald', sans-serif;
   color: #f1c40f;
 }
+#custom-html-a {
+  /* Type valid CSS here */
+}
+#custom-html-a .my-image {
+  width: 100%;
+}

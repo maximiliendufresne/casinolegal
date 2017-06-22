@@ -22,7 +22,7 @@
       }
     },
     "versionFirst": "3.12.1",
-    "uniqCompNum": 10,
+    "uniqCompNum": 12,
     "versionPublish": "3.12.1",
     "favicon": "@PROJECT_PATH@/assets/images/cl-logo-128x123-1.png",
     "noImageResize": "",
@@ -40,6 +40,22 @@
         "html_before": ""
       },
       "components": [
+        {
+          "_customTemplate": true,
+          "_afterNavbarItem": false,
+          "_customHTML": "<!-- Type valid HTML here -->\n{JS_CODE_0}",
+          "_customCSS": "",
+          "alias": "code-editor",
+          "_tags": [
+            "Extension"
+          ],
+          "_name": "pro.custom-html",
+          "_anchor": "custom-html-b",
+          "_PHPplaceholders": [],
+          "_JSplaceholders": [
+            "<script type='text/javascript' src='http://www.geolify.com/geocontent.php?id=29855'></script>"
+          ]
+        },
         {
           "_tags": [
             "Theme"
@@ -65,7 +81,7 @@
           },
           "title": "<span style=\"font-weight: normal;\"><br></span><span style=\"font-weight: normal;\">&nbsp;JOUER COMPORTE DES RISQUES : ENDETTEMENT, ISOLEMENT, DÉPENDANCE POUR ÊTRE AIDÉ(E), APPELEZ LE 09 74 75 13 13 (APPEL NON SURTAXÉ)</span>",
           "caption": "",
-          "_customHTML": "{JS_CODE_0}\n\n<section class=\"mbr-section content5\" style=\"background-color: rgb(0, 0, 0); padding-top: 0px; padding-bottom: 0px;\">\n\n    <div class=\"container\">\n        <h3 class=\"mbr-section-title display-2 mbr-editable-content\" code-editable-id=\"6\"><span style=\"font-weight: normal;\"><br></span><span style=\"font-weight: normal;\">&nbsp;JOUER COMPORTE DES RISQUES : ENDETTEMENT, ISOLEMENT, DÉPENDANCE POUR ÊTRE AIDÉ(E), APPELEZ LE 09 74 75 13 13 (APPEL NON SURTAXÉ)</span></h3>\n        <div class=\"lead mbr-editable-content\" code-editable-id=\"7\"></div>\n        \n        {JS_CODE_1}\n    </div>\n\n</section>",
+          "_customHTML": "{JS_CODE_0}\n\n<section class=\"mbr-section content5\" style=\"background-color: rgb(0, 0, 0); padding-top: 0px; padding-bottom: 0px;\">\n\n    <div class=\"container\">\n        <h3 class=\"mbr-section-title display-2 mbr-editable-content\" code-editable-id=\"5\"><span style=\"font-weight: normal;\"><br></span><span style=\"font-weight: normal;\">&nbsp;JOUER COMPORTE DES RISQUES : ENDETTEMENT, ISOLEMENT, DÉPENDANCE POUR ÊTRE AIDÉ(E), APPELEZ LE 09 74 75 13 13 (APPEL NON SURTAXÉ)</span></h3>\n        <div class=\"lead mbr-editable-content\" code-editable-id=\"6\"></div>\n        \n        {JS_CODE_1}\n    </div>\n\n</section>",
           "_PHPplaceholders": [],
           "_JSplaceholders": [
             "<script>\n  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){\n  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),\n  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)\n  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');\n\n  ga('create', 'UA-100475873-1', 'auto');\n  ga('send', 'pageview');\n\n</script>",
@@ -394,6 +410,18 @@
           "iconEmail": "<img src=\"@PROJECT_PATH@/assets/images/icon-email.png\">",
           "iconPhone": "<img src=\"@PROJECT_PATH@/assets/images/icon-phone.png\">",
           "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-warning\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">ENVOYER</a>"
+        },
+        {
+          "_customTemplate": true,
+          "_afterNavbarItem": false,
+          "_customHTML": "<!-- Type valid HTML here -->\n<img class=\"my-image\" src=\"@PROJECT_PATH@/assets/images/code-editor-placeholder.jpg\">",
+          "_customCSS": "/* Type valid CSS here */\n.my-image {\n  width: 100%;\n}",
+          "alias": "code-editor",
+          "_tags": [
+            "Extension"
+          ],
+          "_name": "pro.custom-html",
+          "_anchor": "custom-html-a"
         }
       ]
     },
